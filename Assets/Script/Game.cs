@@ -15,7 +15,10 @@ public class Game : MonoBehaviour
     public GameObject PanelReady;
     public GameObject PanelInGame;
     public GameObject PanelGameOver;
+    public Player player; 
     public PipeLineManager pipeLineManager;
+
+
     // Start is called before the first frame update
     void Start()
     {
